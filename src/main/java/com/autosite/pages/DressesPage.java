@@ -15,6 +15,8 @@ public class DressesPage {
 	public void selectDress(){
 	    	WebElement dresses= driver.findElement(By.xpath("(//a[@ title='Dresses'])[2]"));
 	    	dresses.click();	
+	    	
+	    	
 	    	/*
 	    	List <WebElement> dress= driver.findElements(By.className("available-now"));
 	    	for (int i=0; i<=dress.size();i++){
